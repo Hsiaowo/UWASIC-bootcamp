@@ -43,5 +43,6 @@ module tt_um_uwasic_onboarding_hsiaowo_ding(
 
   // List all unused inputs to prevent warnings
   wire _unused = &{ena, clk, rst_n, 1'b0};
+  );
 
 endmodule
